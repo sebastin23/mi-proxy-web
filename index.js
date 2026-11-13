@@ -217,7 +217,7 @@ function homePage() {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Xabier Proxy</title>
+  <title>cool Proxy</title>
   <style>
     * { box-sizing: border-box; }
     body { margin: 0; min-height: 100vh; background: #000; color: #00ff41; font-family: 'Courier New', monospace; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px; }
@@ -243,10 +243,9 @@ function homePage() {
 <body>
   <canvas id="m"></canvas>
   <main>
-    <h1>&gt; XABIER PROXY_</h1>
+    <h1>&gt; COOL PROXY_</h1>
     <p class="sub">// navega sin salirte del proxy</p>
     <form action="/" method="GET">
-      <span class="pr">root@xabier:~$</span>
       <input type="text" name="url" placeholder="url o busqueda..." required autofocus autocomplete="off">
       <button type="submit">IR</button>
     </form>
@@ -269,7 +268,7 @@ function homePage() {
 
     <p class="note">Si escribes algo que no es una URL, lo busca en DuckDuckGo.</p>
   </main>
-  <footer>Made by Xabier Mayor &copy; 2026</footer>
+  <footer>Made by sebastian &copy; 2026</footer>
   <script>
     var c = document.getElementById('m'), x = c.getContext('2d'), d = [];
     function r() { c.width = innerWidth; c.height = innerHeight; d = Array(Math.ceil(c.width / 16)).fill(1); }
